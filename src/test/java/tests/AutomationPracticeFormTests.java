@@ -42,7 +42,7 @@ public class AutomationPracticeFormTests {
         $(".react-datepicker__day--019").click();
         $("#subjectsInput").setValue("Arts").pressEnter();
         $("#hobbies-checkbox-1").parent().click();
-        $("#uploadPicture").uploadFile(new File("test.jpg")); //не уверен, что так правильно, добавил jgp в папке, где с проектом и оттуда беру файл
+        $("#uploadPicture").uploadFile(new File("test.jpg")); //не уверен, что так правильно, добавил jgp в папку с проектом и оттуда беру файл
         $("#currentAddress").setValue("some address");
         $("#state").scrollTo().click();
         $("#state").$(byText("Rajasthan")).click();
